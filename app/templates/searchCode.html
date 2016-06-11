@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Demo-Search{% endblock %}
+
+{% block page_content %}
+<div class="col-lg-2">
+    <form>
+        <p> 股票代码：<input type="text" name="stock_code" /></p>
+        <input type="submit" value="查询" />
+    </form>
+</div>
+{% endblock %}
